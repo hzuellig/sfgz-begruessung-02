@@ -8,6 +8,13 @@ footer{
     justify-content: center;
 }
 
+.p {
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 0px;
+    font-family: "impact", sans-serif;
+}
+
 /* ===== 2 · Liste: .liste ===== */
 
 /* ===== 3 · Eintrag: .gruss, .wort, .info, .notiz, .von ===== */
