@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&family=Noto+Sans+JP:wght@700&display=swap');
+
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #92aaf3 url('vivid-blurred-colorful-background.jpg') center / cover no-repeat fixed;
+}
+
+
+h1 {
+  font-family: 'Inter Tight', 'Noto Sans JP', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1.2;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+.div {
+  display: flex;
+  transition: all 0.4s ease;
+  color: #61008b;
+  margin: 3px 14px;
+}
+
+
+/* Hover über das Wort */
+h1:hover .div {
+  transform: translateY(-15px);
+  color: #0015ff;
+  transition: all 0.6s ease-in-out;
+  position: center;
+}
+
+
+/* Hover über einen Buchstaben */
+h1 div:hover {
+  transform: scale(1.7) rotate(-10deg) ;
+  color: #ffffff;
+  transition: all 0.6s ease-in-out;
+  position: center;
+}
